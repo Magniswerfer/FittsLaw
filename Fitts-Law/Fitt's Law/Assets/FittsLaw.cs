@@ -18,7 +18,7 @@ public class FittsLaw : MonoBehaviour
 	 */
 
 	public InputDevice inputDevice;
-	private float clicks;
+	private float clicks = 1;
 	private int totalClicks;
 	private float misclicks;
 	private int x;
